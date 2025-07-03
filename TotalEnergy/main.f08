@@ -26,4 +26,8 @@ PROGRAM TotalEnergy
     WRITE (*,*) "Write the height(m):"
     READ (*,*) height
 
+    E_potential = mass * gravity * height
+    E_kinetic = 0.5 * mass * velocity**2
+    E_total = E_potential + E_kinetic
+
 END PROGRAM TotalEnergy
