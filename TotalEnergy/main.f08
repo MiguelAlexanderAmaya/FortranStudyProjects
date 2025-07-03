@@ -15,11 +15,15 @@ PROGRAM TotalEnergy
     REAL :: height      ! Height; m
 
     WRITE (*,*) "Write the mass(Kg):"
+    READ (*,*) mass
 
     WRITE (*,*) "Write the gravity(m/s**2):"
+    READ (*,*) gravity
 
     WRITE (*,*) "Write the velocity(m/s):"
+    READ (*,*) velocity
 
     WRITE (*,*) "Write the height(m):"
+    READ (*,*) height
 
 END PROGRAM TotalEnergy
