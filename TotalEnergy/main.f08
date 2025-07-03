@@ -30,4 +30,6 @@ PROGRAM TotalEnergy
     E_kinetic = 0.5 * mass * velocity**2
     E_total = E_potential + E_kinetic
 
+    WRITE (*,*) "The total energy is: ", E_total, "Kg*m**2/s**2"
+
 END PROGRAM TotalEnergy
