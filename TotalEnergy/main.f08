@@ -14,4 +14,12 @@ PROGRAM TotalEnergy
     REAL :: velocity    ! Velocity; m/s
     REAL :: height      ! Height; m
 
+    WRITE (*,*) "Write the mass(Kg):"
+
+    WRITE (*,*) "Write the gravity(m/s**2):"
+
+    WRITE (*,*) "Write the velocity(m/s):"
+
+    WRITE (*,*) "Write the height(m):"
+
 END PROGRAM TotalEnergy
