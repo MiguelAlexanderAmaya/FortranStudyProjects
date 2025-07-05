@@ -14,9 +14,11 @@
         READ (*,*) theta_1
 
         WRITE (*,*) "Write the refraction index from first medium: "
-        READ (*,*) theta_2
+        READ (*,*) refractionIndex_1
 
         WRITE (*,*) "Write the refraction index from second medium: "
-        READ (*,*) refractionIndex_1
+        READ (*,*) refractionIndex_2
+
+
 
     END PROGRAM Refraction
