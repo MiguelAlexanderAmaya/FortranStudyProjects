@@ -11,9 +11,12 @@
         REAL :: refractionIndex_2 ! Refraction index from second medium; No units
 
         WRITE (*,*) "Write the angle of incidence (radians): "
+        READ (*,*) theta_1
 
         WRITE (*,*) "Write the refraction index from first medium: "
+        READ (*,*) theta_2
 
         WRITE (*,*) "Write the refraction index from second medium: "
+        READ (*,*) refractionIndex_1
 
     END PROGRAM Refraction
