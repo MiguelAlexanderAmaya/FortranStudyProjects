@@ -9,6 +9,7 @@
         REAL :: theta_2           ! Angle of refraction : x radians
         REAL :: refractionIndex_1 ! Refraction index from first medium; No units
         REAL :: refractionIndex_2 ! Refraction index from second medium; No units
+        REAL :: asin_argument     ! Argument passed to ASIN; radians
 
         WRITE (*,*) "Write the angle of incidence (radians): "
         READ (*,*) theta_1
