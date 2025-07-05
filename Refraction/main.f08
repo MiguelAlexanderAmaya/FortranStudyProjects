@@ -26,6 +26,7 @@
             WRITE (*,*) "The light beam don't cross to second medium"
         ELSE
             theta_2 = ASIN (theta_1)
+            WRITE (*,*) "The angle of refraction in second medium is: ", theta_2, " radians"
         END IF
 
     END PROGRAM Refraction
