@@ -22,4 +22,8 @@
 
         asin_argument = refractionIndex_1 / refractionIndex_2 * SIN (theta_1)
 
+        IF asin_argument > 1 THEN
+        ELSE
+        END IF
+
     END PROGRAM Refraction
