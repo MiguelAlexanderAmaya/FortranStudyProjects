@@ -20,6 +20,6 @@
         WRITE (*,*) "Write the refraction index from second medium: "
         READ (*,*) refractionIndex_2
 
-
+        asin_argument = refractionIndex_1 / refractionIndex_2 * SIN (theta_1)
 
     END PROGRAM Refraction
