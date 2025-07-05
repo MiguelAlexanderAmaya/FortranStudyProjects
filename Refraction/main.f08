@@ -22,7 +22,7 @@
 
         asin_argument = refractionIndex_1 / refractionIndex_2 * SIN (theta_1)
 
-        IF asin_argument > 1 THEN
+        IF (asin_argument > 1) THEN
             WRITE (*,*) "The light beam don't cross to second medium"
         ELSE
             theta_2 = ASIN (theta_1)
