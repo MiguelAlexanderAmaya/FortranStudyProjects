@@ -4,5 +4,6 @@
 
     PROGRAM idealgaslaw
         IMPLICIT NONE
+        REAL, PARAMETER :: R = 8.314
 
     END PROGRAM idealgaslaw
