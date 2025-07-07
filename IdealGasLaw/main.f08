@@ -4,6 +4,14 @@
 
     PROGRAM idealgaslaw
         IMPLICIT NONE
+
         REAL, PARAMETER :: R = 8.314
+
+        REAL :: abs_pressure_init
+        REAL :: abs_pressure_end
+        REAL :: abs_pressure_step
+        REAL :: volume
+        REAL :: abs_temperature
+        REAL :: mol
 
     END PROGRAM idealgaslaw
