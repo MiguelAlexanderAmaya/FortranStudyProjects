@@ -30,6 +30,7 @@
         READ (*,*) abs_temperature
 
         DO
+            volume = mol * R * abs_temperature / abs_pressure_init
             IF (abs_pressure_init < abs_pressure_end) EXIT
         END DO
 
