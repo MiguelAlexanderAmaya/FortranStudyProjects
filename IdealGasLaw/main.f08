@@ -7,11 +7,11 @@
 
         REAL, PARAMETER :: R = 8.314
 
-        REAL :: abs_pressure_init
-        REAL :: abs_pressure_end
-        REAL :: abs_pressure_step
-        REAL :: volume
-        REAL :: abs_temperature
-        REAL :: mol
+        REAL :: abs_pressure_init ! Initial absolute pressure; Kpa
+        REAL :: abs_pressure_end  ! Ending absolute pressure;  Kpa
+        REAL :: abs_pressure_step ! Step absolute pressure;    Kpa
+        REAL :: volume            ! Gas volume;                L
+        REAL :: abs_temperature   ! Absolute temperature;      K
+        REAL :: mol               ! Moles;                     mol
 
     END PROGRAM idealgaslaw
