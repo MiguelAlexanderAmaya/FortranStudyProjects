@@ -5,7 +5,7 @@
     PROGRAM idealgaslaw
         IMPLICIT NONE
 
-        REAL, PARAMETER :: R = 8.314
+        REAL, PARAMETER :: R = 8.314 ! Universal gas constant; Kpa / (mol * K)
 
         REAL :: abs_pressure_init ! Initial absolute pressure; Kpa
         REAL :: abs_pressure_end  ! Ending absolute pressure;  Kpa
