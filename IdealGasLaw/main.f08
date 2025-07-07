@@ -15,13 +15,18 @@
         REAL :: mol               ! Moles;                     mol
 
         WRITE (*,*) "Write the initial absolute pressure(Kpa): "
+        READ (*,*) abs_pressure_init
 
         WRITE (*,*) "Write the ending absolute pressure(Kpa): "
+        READ (*,*) abs_pressure_end
 
         WRITE (*,*) "Write the step for absolute pressure(Kpa): "
+        READ (*,*) abs_pressure_step
 
         WRITE (*,*) "Write the number of moles(mol): "
+        READ (*,*) mol
 
         WRITE (*,*) "Write the absolute temperature(K): "
+        READ (*,*) abs_temperature
 
     END PROGRAM idealgaslaw
