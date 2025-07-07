@@ -30,6 +30,7 @@
         READ (*,*) abs_temperature
 
         DO
+            IF (abs_pressure_init < abs_pressure_end) EXIT
         END DO
 
     END PROGRAM idealgaslaw
