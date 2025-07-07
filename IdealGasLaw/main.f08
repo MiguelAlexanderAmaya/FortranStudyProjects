@@ -29,4 +29,7 @@
         WRITE (*,*) "Write the absolute temperature(K): "
         READ (*,*) abs_temperature
 
+        DO
+        END DO
+
     END PROGRAM idealgaslaw
