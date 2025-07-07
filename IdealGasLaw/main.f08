@@ -31,6 +31,7 @@
 
         DO
             volume = mol * R * abs_temperature / abs_pressure_init
+            WRITE (*,*) "Pressure: ", abs_pressure_init, " Kpa; Volume: ", volume, " L"
             IF (abs_pressure_init < abs_pressure_end) EXIT
         END DO
 
